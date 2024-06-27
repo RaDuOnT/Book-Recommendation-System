@@ -1,0 +1,51 @@
+.custom-card .ant-card-head {
+  background-color: #2e2e2e; /* Dark Charcoal for the card header */
+  color: #c4b6b6; /* Silver Pink for the text */
+}
+
+.custom-card .ant-card-body {
+  background-color: #1e1e1e; /* Dark Charcoal for the card body */
+  color: #c4b6b6; /* Silver Pink for the text */
+}
+
+.ant-tabs-tab.ant-tabs-tab-active {
+  background-color: #bdb9b9 !important; /* Darker color for active tab */
+  color: #ffffff !important; /* Ensure text color remains white */
+}
+
+.ant-tabs-tab {
+  color: #ffffff; /* White text color for tabs */
+}
+
+.ant-tabs-tab:hover {
+  color: #c4b6b6; /* Light color on hover for tabs */
+}
+
+.tabs-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.ant-tabs-nav {
+  width: 100%; /* Ensure the tab navigation occupies the full width */
+}
+
+.ant-tabs-content-holder {
+  width: 100%; /* Ensure the tab content occupies the full width */
+}
+
+.custom-tab-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute space between tabs and dropdown */
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.custom-tab-bar .ant-tabs-nav {
+  flex: 1; /* Take available space for tabs */
+  display: flex;
+  overflow: hidden; /* Ensure no overflow for tabs */
+}
+
+.custom-tab-bar .ant-btn {
+  margin-left: 8px; /* Add space between tabs and dropdown */
+}
